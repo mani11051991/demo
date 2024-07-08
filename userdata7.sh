@@ -1,6 +1,6 @@
 #!/bin/bash
-sudo apt-get update -y
-sudo apt-get install -y wget tar
+sudo yum update -y
+sudo yum install -y wget tar
 
 # Create Prometheus user
               sudo useradd --no-create-home --shell /bin/false prometheus
